@@ -16,10 +16,42 @@ html {
   display: flex;
 }
 
+.navbar__element a {
+  text-decoration: none;
+  color: #828282;
+}
+
 .navbar__element {
   text-align: center;
   flex-grow: 1;
 }
+
+.navbar__element:last-child,
+:first-child {
+  flex-grow: unset;
+}
+.navbar__element:first-child {
+  padding-right: 6%;
+}
+.navbar__element:last-child {
+  padding-left: 6%;
+}
 .navbar {
   align-items: center;
+  font-family: "Gilroy-Bold";
+  margin-top: 32.99px;
+  padding-bottom: 31.92px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+hr {
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  max-width: 95%;
+  opacity: 0.5;
+}
+
+.active {
+  color: #070707;
 }
