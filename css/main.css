@@ -50,8 +50,61 @@ hr {
   transform: matrix(1, 0, 0, 1, 0, 0);
   max-width: 95%;
   opacity: 0.5;
+  margin-bottom: 39.69px;
 }
 
 .active {
   color: #070707;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.description__name {
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy-Bold";
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+  flex-grow: 1;
+}
+
+.description__whoami {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  flex-grow: 1;
+  align-self: flex-end;
+}
+
+.description__lang {
+  margin-left: auto;
+  padding-top: 8%;
+  padding-right: 3.5%;
+  position: sticky;
+  display: flex;
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  /* flex-grow: 0.01; */
+  transform: rotate(-90deg);
+}
+
+.description__lang a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.description__lang p {
+  margin: 0;
+  padding: 0;
 }
